@@ -1,0 +1,204 @@
+.App {
+  position: relative;
+}
+
+.news {
+  text-align: left;
+}
+
+#newsGroup {
+  width: 600px;
+}
+
+.imgNews {
+  float: left;
+}
+
+#newsTabsNames p {
+  display: inline;
+}
+
+.newsTab {
+  margin-right: 10px;
+  color: rgb(117, 175, 252);
+}
+
+.activeNewsTab {
+  font-weight: bold;
+  margin-right: 10px;
+  color: rgb(6, 124, 221);
+}
+
+.textNews {
+  margin: 5px;
+  margin-left: 20px;
+}
+
+#dateTime {
+  color: grey;
+  font-size: 10pt;
+}
+
+#ratesGroup {
+  margin-left: 20px;
+}
+
+#ratesGroup div{
+  display: inline;
+}
+
+#ratesGroup p{
+  display: inline;
+}
+
+#moreRates {
+  color: grey;
+}
+
+.rateName {
+  font-weight: bold;
+  color: black;
+}
+
+.rateValue {
+  color: black;
+}
+
+.rateDiff {
+  color: grey;  
+}
+
+.rate p{
+  display: inline;
+}
+
+.rate {
+  margin-right: 10px;
+}
+
+#topAdBlock p {
+  margin: 3px;  
+}
+
+#sectionsTabs p {
+  display: inline;
+  margin-right: 15px;
+  color: rgb(6, 124, 221);
+}
+
+.topNewsBlock {
+  padding: 0 0 0 120px;
+}
+
+#mainPane {
+  margin-left: 20px;
+}
+
+input {  
+  width: 700px;
+  height: 30px;
+  margin-top: 10px;
+  border-color: #fc0;
+}
+
+#search {
+  height: 36px;
+  background-color: #fc0;
+  border-color: #fc0;
+  color: black;
+}
+
+#searchArea input{
+  display: inline;
+}
+
+#searchArea button{
+  display: inline;
+}
+
+#yandexIcon {
+  margin-top: 30px;
+}
+
+span {
+  color: grey;
+}
+
+#searchArea p{
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#weather img {
+  display: inline;
+}
+
+#weather p {
+  display: inline;
+}
+
+#weather div {
+  display: inline;
+}
+
+#currentTemperature {
+  font-size: 25pt;
+}
+
+.weatherInfo {
+  vertical-align: top;
+  font-size: 10pt;
+}
+
+br {
+  height: 0px;
+}
+
+h3 {
+  color: rgb(6, 124, 221);
+  margin-bottom: 10px;
+}
+
+.inlineDiv b{
+  display: inline;
+}
+
+.inlineDiv p{
+  display: inline;
+}
+
+.inlineDiv img{
+  display: inline;
+}
+
+#mainPane td {
+  vertical-align: top;
+}
+
+#mainPaneTable {
+  border-spacing: 30px 0;
+}
+
+#TVProgramBlock button {
+  display: inline;
+  margin-left: 10px;
+  background-color: lightskyblue;
+  border-color: lightskyblue;
+  color: white;
+}
+
+#TVProgramBlock h3 {
+  display: inline;
+}
+
+.grey {
+  color: grey;
+}
+
+#TVProgram p {
+  display: inline;
+}
