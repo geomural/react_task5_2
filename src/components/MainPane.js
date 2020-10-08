@@ -15,7 +15,7 @@ function MainPane(props) {
         <div id="mainPane">
             <SectionsTabs />
             <SearchArea />
-            <img src={mainAd} />
+            <img src={mainAd} alt=""/>
             <table id="mainPaneTable">
                 <tbody>
                     <tr>

@@ -10,7 +10,7 @@ function Weather(props) {
                 <tbody>
                     <tr> 
                         <td>
-                            <img id="imgWeather" src={rainImg} />
+                            <img id="imgWeather" src={rainImg} alt=""/>
                         </td>
                         <td>
                             <p id="currentTemperature">+17°</p>

@@ -13,7 +13,7 @@ function App() {
         <tbody>
           <tr>
             <td style={{verticalAlign: 'top'}}>
-              <img src={yandexImg} id="yandexIcon"/>
+              <img src={yandexImg} alt="" id="yandexIcon"/>
             </td>
             <td>
               <MainPane />

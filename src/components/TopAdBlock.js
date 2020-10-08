@@ -7,7 +7,7 @@ function TopAdBlock(props) {
 
     return(
         <div id="topAdBlock">
-            <img src={adImg} />
+            <img src={adImg} alt=""/>
             <p className="activeNewsTab">Работа над ошибками</p>
             <p>Смотрите на Яндексе и запоминайте</p>
         </div>

@@ -9,13 +9,13 @@ function Broadcast(props) {
         <>
             <h3>Эфир</h3>
             <InfoBlock leftText="Управление как искусство" rightText="Успех"> 
-                <img src={broadcastImg} />
+                <img src={broadcastImg} alt=""/>
             </InfoBlock>
             <InfoBlock leftText="Ночь. Мир в это время" rightText="earthTV">
-                <img src={broadcastImg} />
+                <img src={broadcastImg} alt=""/>
             </InfoBlock>
             <InfoBlock leftText="Андрей Возн..." rightText="Совершенно секретно"> 
-                <img src={broadcastImg} />
+                <img src={broadcastImg} alt=""/>
             </InfoBlock>
         </>
     )
