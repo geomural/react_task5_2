@@ -1,15 +1,22 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import BroadcastItem from './BroadcastItem'
+import InfoBlock from './InfoBlock'
+import broadcastImg from '../img/broadcast.jpg';
 
 //Блок Эфир
 function Broadcast(props) {
     return(
         <>
             <h3>Эфир</h3>
-            <BroadcastItem name="Управление как искусство" source="Успех"/>
-            <BroadcastItem name="Ночь. Мир в это время" source="earthTV" />
-            <BroadcastItem name="Андрей Возн..." source="Совершенно секретно" />
+            <InfoBlock leftText="Управление как искусство" rightText="Успех"> 
+                <img src={broadcastImg} />
+            </InfoBlock>
+            <InfoBlock leftText="Ночь. Мир в это время" rightText="earthTV">
+                <img src={broadcastImg} />
+            </InfoBlock>
+            <InfoBlock leftText="Андрей Возн..." rightText="Совершенно секретно"> 
+                <img src={broadcastImg} />
+            </InfoBlock>
         </>
     )
 }

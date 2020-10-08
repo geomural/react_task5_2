@@ -199,6 +199,22 @@ h3 {
   color: grey;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 #TVProgram p {
   display: inline;
+}
+
+.rightTextInfoBlock {
+  color: grey;
+}
+
+.visitedBlock .rightTextInfoBlock {
+  color: black;
+}
+
+.visitedBlock .leftTextInfoBlock {
+  font-weight: bold;
 }

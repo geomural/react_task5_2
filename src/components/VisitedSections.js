@@ -1,15 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import VisitedSection from './VisitedSection'
+import InfoBlock from './InfoBlock'
 
 //Посещаемое
 function VisitedSections(props) {
     return(
         <>
             <h3> Посещаемое </h3>
-            <VisitedSection section="Недвижимость" info="о сталинках" />
-            <VisitedSection section="Маркет" info="люстры и светильники" />
-            <VisitedSection section="Авто.ру" info="привод 4х4 до 500 000" />
+            <InfoBlock extraClass="visitedBlock" leftText="Недвижимость" rightText=" - о сталинках" />
+            <InfoBlock extraClass="visitedBlock" leftText="Маркет" rightText=" - люстры и светильники" />
+            <InfoBlock extraClass="visitedBlock" leftText="Авто.ру" rightText=" - привод 4х4 до 500 000" />
         </>
     )
 }

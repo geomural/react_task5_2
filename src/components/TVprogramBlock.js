@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import TVProgram from './TVprogram'
+import InfoBlock from './InfoBlock'
 
 //Телепрограмма
 function TVProgramBlock(props) {
@@ -9,9 +9,9 @@ function TVProgramBlock(props) {
             <h3>Телепрограмма</h3>
             <button id="broadcastBtn">Эфир</button>
             <div style={{marginTop : "10px"}}>
-                <TVProgram time="02:00" name="ТНТ.Best" channel="ТНТ International"/>
-                <TVProgram time="02:15" name="Джинглики" channel="Карусель INT"/>
-                <TVProgram time="02:25" name="Наедине со всеми" channel="Первый"/>
+                <InfoBlock leftText="02:00 ТНТ.Best" rightText="ТНТ International"/>
+                <InfoBlock leftText="02:15 Джинглики" rightText="Карусель INT"/>
+                <InfoBlock leftText="02:25 Наедине со всеми" rightText="Первый"/>
             </div>
         </div>
     )
