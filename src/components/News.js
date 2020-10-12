@@ -6,7 +6,7 @@ function News(props) {
     const {imgSrc, newsText } = props;
     return(
         <div className="news">
-            <img className="imgNews" src={imgSrc} />
+            <img className="imgNews" src={imgSrc} alt=""/>
             <p className="textNews"> {newsText} </p>
         </div>
     )

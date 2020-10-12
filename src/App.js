@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TopPane from './components/TopPane';
 import MainPane from './components/MainPane';

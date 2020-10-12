@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 
 //Информационный блок: Телепрограмма, Посещаемое, Эфир
 function InfoBlock(props) {
-    const {leftText, rightText, extraClass} = props;
+    const {leftText, rightText, extraClass, broadcastImg} = props;
     return(
         <div id="InfoBlock" className={`inlineDiv ${extraClass}`}>
-            {props.children}
+            <img src={broadcastImg} alt=""/>
             <p className="leftTextInfoBlock"> {leftText} </p>
             <p className="rightTextInfoBlock"> {rightText} </p>
         </div>
@@ -14,6 +14,8 @@ function InfoBlock(props) {
 }
 InfoBlock.propTypes = {
     leftText: PropTypes.string.isRequired,
-    rightText: PropTypes.string.isRequired
+    rightText: PropTypes.string.isRequired,
+    extraClass: PropTypes.string,
+    broadcastImg: PropTypes.string
 }
 export default InfoBlock;
